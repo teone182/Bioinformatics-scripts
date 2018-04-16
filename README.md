@@ -1,4 +1,4 @@
-# Bioinformatics-scripts
+## Bioinformatics-scripts
 
 Collection of bioinformatics scripts dealing with basic Next Generation Sequencing data manipulation.
 The scripts run on the command line in a GNU/Linux environment.
@@ -66,14 +66,14 @@ Usage: ./Fix_Fastq_header.sh
 -Fix_MultiLine_Fastq_header.sh
 
 With this script you are able to label the header of sequences of multiple fastq files with a specific tag of your choice (for example the name of the species the sequences are generated from). It assumes that the fastq file has 6 lines characterizing each sequence (header, 2 sequence, id, 2 quality).
-##Usage: ./Fix_MultiLine_Fastq_header.sh
+Usage: ./Fix_MultiLine_Fastq_header.sh
 
 -MultiLineFastq2Fasta.pl
 
 With this script you are able to convert a multi-line fastq file into a fasta files. It does NOTs assume that there are 4 lines for each sequence. It assumes you have previously used the script Fix_MultiLine_Fastq_header.sh to modify the header of each sequence.
-##Usage: ./MultiLineFastq2Fasta.pl input.fastq output.fasta
+Usage: ./MultiLineFastq2Fasta.pl input.fastq output.fasta
 
 -Sort_Reads_Fasta.pl
 With this script you will be able to sort paired-end reads included in two fasta files.
-##Usage: Sort_Reads_Fasta.pl   input_1.fasta  input_2.fasta    output_SORTED_1.fasta output_SORTED_2.fasta
+Usage: Sort_Reads_Fasta.pl   input_1.fasta  input_2.fasta    output_SORTED_1.fasta output_SORTED_2.fasta
 
